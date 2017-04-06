@@ -15,6 +15,7 @@ fis.match('*.less', {
 
 fis.match('::package', {
   postpackager: fis.plugin('loader', {
-    allInOne: true
+    allInOne: true,
+    obtainStyle: true
   })
 });
