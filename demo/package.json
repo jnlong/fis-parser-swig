@@ -1,0 +1,29 @@
+{
+  "name": "fis-parser-swig-demo",
+  "version": "1.0.0",
+  "description": "parser swig, use fis support layout, demo",
+  "main": "index.js",
+  "dependencies": {
+    "fis3-parser-less-2.x": "^0.1.4",
+    "fis3-postpackager-loader": "^1.5.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "fis3 release -d ./output -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jnlong/fis-parser-swig.git"
+  },
+  "keywords": [
+    "fis",
+    "swig",
+    "layout"
+  ],
+  "author": "jnlong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jnlong/fis-parser-swig/issues"
+  },
+  "homepage": "https://github.com/jnlong/fis-parser-swig#readme"
+}
