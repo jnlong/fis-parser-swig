@@ -1,5 +1,5 @@
 {
-  "name": "fis-parser-swig",
+  "name": "fis-parser-swig2",
   "version": "1.0.0",
   "description": "parser swig, use fis support layout",
   "main": "index.js",

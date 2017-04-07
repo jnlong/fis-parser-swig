@@ -4,6 +4,7 @@
   "description": "parser swig, use fis support layout, demo",
   "main": "index.js",
   "dependencies": {
+    "fis-parser-swig2": "^1.0.0",
     "fis3-parser-less-2.x": "^0.1.4",
     "fis3-postpackager-loader": "^1.5.2"
   },

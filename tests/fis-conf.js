@@ -3,7 +3,7 @@ fis.set('project.ignore',[
 ]);
 
 fis.match('*.tpl', {
-	parser: fis.plugin('swig',{tagControls: ['{*', '*}']}),
+	parser: fis.plugin('swig2',{tagControls: ['{*', '*}']}),
 	rExt: ".html"
 });
 fis.match('*.less', {
