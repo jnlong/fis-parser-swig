@@ -5,12 +5,13 @@ fis编译阶段的插件；
 ## Installation
     npm install fis-parser-swig
 
+## para
+* cache: false
+* varControls: ['{{', '}}']
+* tagControls: ['{%', '%}']
+* cmtControls: ['{#', '#}']
+
 ## fis-conf.js
-### 支持的参数：
-* cache: false // 默认
-* varControls: ['{{', '}}'] // 默认
-* tagControls: ['{%', '%}'] // 默认
-* cmtControls: ['{#', '#}'] // 默认
 
     fis.match('*.tpl', {
         parser: fis.plugin('swig',{tagControls: ['{*', '*}']}),
@@ -63,7 +64,7 @@ fis编译阶段的插件；
     </body>
     </html>
 ## example
-* [https://github.com/jnlong/fis-parser-swig/tree/master/test](https://github.com/jnlong/fis-parser-swig/tree/master/tests)
+* [https://github.com/jnlong/fis-parser-swig/tree/master/tests](https://github.com/jnlong/fis-parser-swig/tree/master/tests)
 
 ## more
 * [fis3-postpackager-loader](https://github.com/fex-team/fis3-postpackager-loader)
